@@ -147,7 +147,68 @@ img {
 }
 
 /* experience */
+.experience {
+  background-color: #000000;
+  color: #eeeade;
+}
 
+.experience .heading {
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 50px;
+}
+
+.exp-container {
+  padding-left: 100px;
+  padding-right: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.expbox {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  border: 1px solid #fff;
+  padding: 20px;
+  height: 200px;
+  width: 100%;
+  box-sizing: border-box;
+  transition: transform 0.3s ease;
+  margin-bottom: 30px;
+}
+
+.expbox-line {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+  padding-bottom: 20px;
+}
+
+.exp-date {
+  opacity: 0.9;
+  font-size: small;
+}
+
+.exp-description {
+  font-size: medium;
+}
+
+.expbox:hover {
+  transform: translateY(-5px);
+}
+
+/* about me  */
+.aboutme {
+  display: flex;
+}
 /* buttons */
 .btn {
   display: inline-block;
