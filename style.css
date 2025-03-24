@@ -208,7 +208,45 @@ img {
 /* about me  */
 .aboutme {
   display: flex;
+  flex-direction: row;
+  gap: 40px;
+  margin: 50px 100px;
+  align-items: center;
 }
+
+.aboutme_img {
+  flex: 0 0 40%;
+  height: 400px;
+  background-image: url("./images/About_me_img.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.aboutme_text {
+  flex: 1;
+}
+
+.aboutme_text .heading {
+  margin-bottom: 20px;
+}
+
+.aboutme_text .paragraph {
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .aboutme {
+    flex-direction: column;
+    margin: 30px 20px;
+  }
+
+  .aboutme_img {
+    flex: 0 0 100%;
+    margin-bottom: 30px;
+  }
+}
+
 /* buttons */
 .btn {
   display: inline-block;
