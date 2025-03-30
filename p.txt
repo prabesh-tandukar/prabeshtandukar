@@ -1,171 +1,53 @@
-/* Base styles */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-body {
-  background-color: #fff;
-  color: #000;
-  line-height: 1.6;
-}
-
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px;
-}
-
-/* Contact Section */
-.contact-section {
-  padding: 80px 0;
-}
-
-.contact-wrapper {
-  display: flex;
-  justify-content: space-between;
-  gap: 60px;
-}
-
-/* Form Styles */
-.contact-form {
-  flex: 1;
-}
-
-.form-group {
-  margin-bottom: 20px;
-}
-
-.form-group input,
-.form-group textarea {
-  width: 100%;
-  padding: 15px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  font-size: 16px;
-  transition: border-color 0.3s;
-}
-
-.form-group textarea {
-  min-height: 120px;
-  resize: vertical;
-}
-
-.form-group input:focus,
-.form-group textarea:focus {
-  outline: none;
-  border-color: #000;
-}
-
-.form-actions {
-  display: flex;
-  align-items: center;
-  gap: 20px;
-  margin-top: 30px;
-}
-
-.btn-primary {
-  background-color: #000;
-  color: #fff;
-  border: none;
-  padding: 15px 30px;
-  font-size: 16px;
-  font-weight: 600;
-  cursor: pointer;
-  transition: background-color 0.3s;
-}
-
-.btn-primary:hover {
-  background-color: #333;
-}
-
-.social-links {
-  display: flex;
-  gap: 10px;
-}
-
-.social-link {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 40px;
-  height: 40px;
-  border: 1px solid #000;
-  border-radius: 4px;
-  text-decoration: none;
-  color: #000;
-  transition: all 0.3s ease;
-}
-
-.social-link:hover {
-  background-color: #000;
-  color: #fff;
-}
-
-/* Contact Info Styles */
-.contact-info {
-  flex: 1;
-}
-
-.contact-title {
-  font-size: 2.8rem;
-  line-height: 1.2;
-  font-weight: 700;
-  margin-bottom: 5px;
-}
-
-.highlight {
-  background-color: #000;
-  color: #fff;
-  padding: 0 10px;
-}
-
-.contact-description {
-  margin: 30px 0;
-  font-size: 16px;
-  color: #555;
-  max-width: 90%;
-}
-
-.contact-details {
-  margin-top: 40px;
-}
-
-.email, .phone {
-  font-size: 18px;
-  margin-bottom: 10px;
-  font-weight: 500;
-}
-
-/* Responsive Design */
-@media (max-width: 992px) {
-  .contact-wrapper {
-    flex-direction: column-reverse;
-  }
-  
-  .contact-info, .contact-form {
-    flex: auto;
-    width: 100%;
-  }
-  
-  .contact-title {
-    font-size: 2.3rem;
-  }
-}
-
-@media (max-width: 576px) {
-  .form-actions {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-  
-  .social-links {
-    margin-top: 20px;
-  }
-  
-  .contact-title {
-    font-size: 2rem;
-  }
-}
+Prabesh Tandukar
+Full Stack Software Developer
+R tandukarprabesh@gmail.com
+¯ linkedin.com/in/prabesh-tandukar
+ github.com/prabesh-tandukar
+Professional Summary
+Results-driven Software Engineer with experience in full-stack development, specializing in web
+application development using modern JavaScript frameworks and PHP. Strong background in
+agile methodologies and cross-functional team collaboration.
+Technical Skills
+Programming Languages: Python, JavaScript (ES6+), PHP, C++, C, SQL
+Frontend: React.js, HTML5, CSS3, JavaScript, Redux, RESTful APIs
+Backend: Node.js, Laravel, PHP, Express.js
+Databases: MySQL, MongoDB, PostgreSQL
+Blockchain: Ethereum, Solidity, Web3.js, Hardhat, Smart Contracts
+DevOps & Tools: Git, Linux, Docker, AWS, CI/CD, Agile/Scrum
+Testing: Unit Testing, Integration Testing, TDD
+Professional Experience
+Software Developer March 2022 - November 2023
+Djink Works Pvt Ltd, Nepal
+• Development of multiple full-stack web applications using Laravel, Node.js and React.js.
+• Designed and implemented RESTful APIs serving daily requests
+• Optimized database queries and implemented caching strategies.
+• Collaborated with UX designers to implement responsive design patterns across projects
+Backend Development Intern December 2021 - February 2022
+iData Solution Pvt Ltd, Nepal
+• Developed and maintained RESTful APIs using PHP and MySQL, handling 1000+ daily
+requests
+• Implemented secure authentication and authorization systems using JWT tokens
+• Reduced API response time by 25% through query optimization and caching implementation
+• Contributed to the development of microservices architecture using Docker containers
+Key Projects
+Decentralized Crowdfunding Platform—React.js, Ethereum, Solidity, Web3.js—GitHub
+Link
+• Architected and developed a blockchain-based crowdfunding platform with smart contract
+integration
+• Implemented secure transaction handling and wallet integration using ethers.js
+1
+• Built responsive UI components with React.js
+Property Rental Management System — Laravel, MySQL, JavaScript — Github Link
+• Developed a full-stack rental property platform
+• Implemented search functionality with multiple filtering options
+• Integrated Google Maps API for property location visualization
+Education
+Master of Software Engineering 2023 - 2024
+Yoobee College, New Zealand
+• Specialized in Software Architecture and Cloud Computing
+• Research focus on Blockchain Technologies
+BSc (Hons) Computing 2019 - 2022
+Islington College, Nepal (Affiliated with London Metropolitan University, UK)
+• Core focus: Software Development, Database Management, Web Technologies
+• Final year project: Rental finding web application
+2
