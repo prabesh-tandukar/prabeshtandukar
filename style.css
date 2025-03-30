@@ -4,12 +4,27 @@
   padding: 0;
 }
 
+:root {
+  --bg-dark: #000000;
+  --text-light: #ffffff;
+  --text-gray: rgba(255, 255, 255, 0.8);
+  --spacing-sm: 20px;
+  --spacing-md: 40px;
+  --spacing-lg: 80px;
+}
+
 body {
   font-family: "Sora", sans-serif;
   font-size: 16px;
   line-height: 1.5;
   background: #fff;
   overflow-x: hidden;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 var(--spacing-sm);
 }
 
 .sora {
@@ -244,6 +259,125 @@ img {
   .aboutme_img {
     flex: 0 0 100%;
     margin-bottom: 30px;
+  }
+}
+
+/* project */
+
+/* Projects Section */
+.projects-section {
+  background-color: var(--bg-dark);
+  padding: var(--spacing-lg) 0;
+  color: #fff;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: var(--spacing-lg);
+  font-weight: 600;
+}
+
+.projects-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-lg);
+}
+
+/* Project Card */
+.project-card {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-md);
+}
+
+/* Alternate layout - image right side for even projects */
+.project-card:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.project-image {
+  flex: 0 0 45%;
+}
+
+.project-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+.project-content {
+  flex: 1;
+  position: relative;
+}
+
+.project-number {
+  font-size: 2.8rem;
+  font-weight: 700;
+  opacity: 0.8;
+  margin-bottom: 10px;
+}
+
+.project-title {
+  font-size: 1.8rem;
+  margin: 0 0 15px 0;
+}
+
+.project-description {
+  color: var(--text-gray);
+  margin-bottom: var(--spacing-sm);
+}
+
+.project-link {
+  display: inline-block;
+  color: var(--text-light);
+  font-size: 1.2rem;
+  opacity: 0.7;
+  transition: opacity 0.3s ease;
+}
+
+.project-link:hover {
+  opacity: 1;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 900px) {
+  .project-card,
+  .project-card:nth-child(even) {
+    flex-direction: column;
+  }
+
+  .project-image {
+    flex: 0 0 100%;
+    margin-bottom: var(--spacing-sm);
+  }
+
+  .section-title {
+    font-size: 2rem;
+  }
+
+  .project-number {
+    font-size: 2.2rem;
+  }
+
+  .project-title {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .projects-section {
+    padding: var(--spacing-md) 0;
+  }
+
+  .section-title {
+    margin-bottom: var(--spacing-md);
+  }
+
+  .projects-list {
+    gap: var(--spacing-md);
   }
 }
 
