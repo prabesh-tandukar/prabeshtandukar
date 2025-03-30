@@ -56,7 +56,7 @@
               Hello I'm Prabesh. Software Developer Based in New Zealand
             </h1>
             <p class="hero-text">
-              Results-driven Software Engineer with experience in full-stack
+              Results-driven Software Developer with experience in full-stack
               development, specializing in web application development using
               modern JavaScript frameworks and PHP. Strong background in agile
               methodologies and cross-functional team collaboration.
@@ -320,48 +320,84 @@
         <div class="container">
           <div class="contact-wrapper">
             <div class="contact-form">
-              <form>
+              <form
+                action="https://formsubmit.co/tandukarprabesh@gmail.com"
+                method="POST"
+              >
+                <!-- Honeypot to prevent spam -->
+                <input type="text" name="_honey" style="display: none" />
+
+                <!-- Disable captcha -->
+                <input type="hidden" name="_captcha" value="false" />
+
+                <!-- Thank you page -->
+                <input
+                  type="hidden"
+                  name="_next"
+                  value="https://yourdomain.com/thanks.html"
+                />
+
                 <div class="form-group">
                   <input
                     type="text"
                     id="name"
+                    name="name"
                     placeholder="Your name"
                     required
                   />
                 </div>
                 <div class="form-group">
-                  <input type="email" id="email" placeholder="Email" required />
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Email"
+                    required
+                  />
                 </div>
                 <div class="form-group">
                   <input
-                    type="url"
-                    id="website"
-                    placeholder="Your website (If exists)"
+                    type="text"
+                    id="subject"
+                    name="subject"
+                    placeholder="Subject"
                   />
                 </div>
                 <div class="form-group">
                   <textarea
                     id="message"
-                    placeholder="How can I help?"
+                    name="message"
+                    placeholder="Your Message"
                     required
                   ></textarea>
                 </div>
                 <div class="form-actions">
                   <button type="submit" class="btn-primary">
-                    Get In Touch
+                    Send Message
                   </button>
                   <div class="form-social-links">
-                    <a href="#" class="social-icon" aria-label="Facebook">
-                      <i class="fab fa-facebook-f"></i>
+                    <a
+                      href="https://linkedin.com/in/prabesh-tandukar"
+                      class="social-icon"
+                      aria-label="LinkedIn"
+                      target="_blank"
+                    >
+                      <i class="fab fa-linkedin-in"></i>
                     </a>
-                    <a href="#" class="social-icon" aria-label="Discord">
-                      <i class="fab fa-discord"></i>
+                    <a
+                      href="https://github.com/prabesh-tandukar"
+                      class="social-icon"
+                      aria-label="GitHub"
+                      target="_blank"
+                    >
+                      <i class="fab fa-github"></i>
                     </a>
-                    <a href="#" class="social-icon" aria-label="Twitter">
-                      <i class="fab fa-twitter"></i>
-                    </a>
-                    <a href="#" class="social-icon" aria-label="Instagram">
-                      <i class="fab fa-instagram"></i>
+                    <a
+                      href="mailto:tandukarprabesh@gmail.com"
+                      class="social-icon"
+                      aria-label="Email"
+                    >
+                      <i class="fas fa-envelope"></i>
                     </a>
                   </div>
                 </div>
@@ -369,16 +405,16 @@
             </div>
             <div class="contact-info">
               <h2 class="contact-title">
-                Let's <span class="highlight">talk</span> for
+                "Say <span class="highlight">hello</span>, I listen"
               </h2>
-              <h2 class="contact-title">Something special</h2>
+
               <p class="contact-description">
-                I seek to push the limits of creativity to create high-engaging,
-                user-friendly, and memorable interactive experiences.
+                Technology is better when we collaborate. I'm here to listen,
+                discuss, and learn something new from our conversation
               </p>
               <div class="contact-details">
-                <p class="email">Youremail@gmail.com</p>
-                <p class="phone">1234567890</p>
+                <p class="email">tandukarprabesh@gmail.com</p>
+                <p class="location">Christchurch, New Zealand</p>
               </div>
             </div>
           </div>
